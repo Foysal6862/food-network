@@ -5,17 +5,20 @@ body{
 .top-section{
     display: flex;
 }
-.about{
+.about-section{
     display: flex;
     background-image: url("../images/shapes/7.png");
     background-repeat: no-repeat;
+    margin-bottom: 38px;
+    background-size: cover;
+    background-position: center;
 }
 
 .orange-color{
     color: #FF1E1E;
 }
 .flexible-item{
-    width: 50%;
+    width: 100%;
     margin-left: 100px;
 }
 .flexible-item .header{
@@ -26,8 +29,6 @@ body{
 .flexible-item img{
     margin-top: 82px;
     margin-left: 32px;
-    margin-right: 49.79px;
-    width: 100%;
     margin-bottom: 72.77px;
 }
 .person img{
@@ -35,7 +36,7 @@ body{
     padding-left: 100px;
 }
 .about-me{
-    padding: 0 42px;
+    /* padding: 0 42px; */
     margin-top: 127px;
     margin-bottom: 227;
 }
@@ -58,3 +59,63 @@ p{
     font-size: 18px;
     border-radius: 40px;
 }
+.recipe-section{
+    margin: 0 367px;
+    padding: 5px;
+    margin-bottom: 38px;
+    /* position: fixed; */
+}
+.recipe-section h1{
+    text-align: center;
+    color: #676767;
+    font-weight: bold;
+    margin-bottom: 30PX;
+}
+.recipe-items-section{
+    display: flex;
+    margin-left: 180px;
+    margin-right: 100px;
+    margin-bottom: 92px;
+}
+.recipe-items-section img{
+    width: 100%;
+}
+.recipe-item{
+    border-radius: 20px;
+    width: 25%; 
+}
+#first-recipe-item{
+    
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+#second-recipe-item{
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;  
+}
+#third-recipe-item{
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;  
+}
+footer{
+    background: black;
+    width: 100%;
+}
+#footer-section{
+    color: #5B5B5B;
+}
+#footer-section h2{
+    padding-top: 37px;
+}
+#footer-section p{
+    padding-bottom: 115px;
+}
+footer #footer-section{
+    text-align: center;
+}
+
+
+
